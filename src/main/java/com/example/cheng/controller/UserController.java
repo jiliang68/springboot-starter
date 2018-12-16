@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.cheng.pojo.User;
 
 /**
+ * //@Controller
  * @author chengchenrui
  * @version Id: UserController.java, v 0.1 2018/7/1 10:29 chengchenrui Exp $$
  */
-//@Controller
 @RestController // @RestController = @Controller + @ResponseBody
 @RequestMapping("/user")
 public class UserController {
