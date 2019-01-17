@@ -10,8 +10,8 @@ import javax.servlet.http.HttpServletResponse;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.imooc.pojo.IMoocJSONResult;
-import com.imooc.utils.JsonUtils;
+import com.example.cheng.pojo.IMoocJSONResult;
+import com.example.cheng.utils.JsonUtils;
 
 public class OneInterceptor implements HandlerInterceptor {
 

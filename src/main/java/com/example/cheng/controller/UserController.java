@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.cheng.pojo.IMoocJSONResult;
 import com.example.cheng.pojo.User;
 
 /**
@@ -41,6 +42,6 @@ public class UserController {
         user.setBirthday(new Date());
         user.setPassword("123456");
 
-        return JsonResultUtil.ok(user);
+        return IMoocJSONResult.ok(user);
     }
 }

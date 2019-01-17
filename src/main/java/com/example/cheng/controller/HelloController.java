@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.cheng.pojo.IMoocJSONResult;
 import com.example.cheng.pojo.Resource;
 
 /**
@@ -28,6 +29,6 @@ public class HelloController {
         Resource bean = new Resource();
         BeanUtils.copyProperties(resource, bean);
 
-        return JsonResultUtil.ok(bean);
+        return IMoocJSONResult.ok(bean);
     }
 }
