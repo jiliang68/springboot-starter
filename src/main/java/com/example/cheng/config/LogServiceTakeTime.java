@@ -1,7 +1,3 @@
-/**
- * Bestpay.com.cn Inc.
- * Copyright (c) 2011-2019 All Rights Reserved.
- */
 package com.example.cheng.config;
 
 import org.aspectj.lang.JoinPoint;
