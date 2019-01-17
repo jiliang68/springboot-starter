@@ -125,7 +125,7 @@ public class IMoocJSONResult {
      * @param clazz
      * @return
      * 
-     * @author leechenxiang
+     * @author chengchenrui
      * @date 2016年4月22日 下午8:34:58
      */
     public static IMoocJSONResult formatToPojo(String jsonData, Class<?> clazz) {
@@ -155,7 +155,7 @@ public class IMoocJSONResult {
      * @param json
      * @return
      * 
-     * @author leechenxiang
+     * @author chengchenrui
      * @date 2016年4月22日 下午8:35:21
      */
     public static IMoocJSONResult format(String json) {
@@ -175,7 +175,7 @@ public class IMoocJSONResult {
      * @param clazz
      * @return
      * 
-     * @author leechenxiang
+     * @author chengchenrui
      * @date 2016年4月22日 下午8:35:31
      */
     public static IMoocJSONResult formatToList(String jsonData, Class<?> clazz) {
