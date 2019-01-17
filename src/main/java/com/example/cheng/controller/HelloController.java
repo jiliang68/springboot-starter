@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.cheng.pojo.Resource;
-import com.example.cheng.utils.JsonResultUtil;
 
 /**
  * @author chengchenrui
